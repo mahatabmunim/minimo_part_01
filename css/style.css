@@ -1,0 +1,67 @@
+body {
+    margin: 0px; 
+    font-family: "Playfair Display", serif; 
+    font-size: 16px; 
+    font-weight: 400; color: rgb(98, 98, 98); 
+}
+header {
+    padding: 40px 0;
+    /* border: 1px solid red; */
+}
+.wrapper { 
+    width: 90%; 
+    overflow: hidden; 
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+.logo {
+    width: 12%; 
+    float: left;
+    /* border: 1px solid darkgrey;  */
+}
+.logo img { 
+    width: 100%; 
+}
+.manu { 
+    width: 65%; 
+    float: right;
+    /* border: 1px solid yellowgreen; */
+}
+.manu ul {
+    float: right;
+    margin: 0;
+}
+.manu ul li { 
+    list-style: none;
+    float: left; 
+}
+.manu ul li a {
+    text-decoration: none;
+    margin: 0px 47px;
+    padding: 5px 0px;
+    color: rgb(98, 98, 98);
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .33s;
+}
+.manu ul li:last-child a { 
+    padding-right: 0px; 
+}
+.manu ul li a:hover { 
+    border-bottom: 1px solid #626262;   
+}
+
+
+.banner{
+
+}
+.b_img{    
+
+}
+.b_img img{  
+    width: 100%;  
+    /* border: 1px solid red; */
+}
+
+
+
